@@ -21,9 +21,9 @@
 * 令 p 和 q 為任兩命題，p 和 q 的連言為 「p 和 q」
 * 以 「 p ∧ q 」 表示
 
-p  q | p ∧ q
-----|-------
-T  T|  T
-T  F|  F
-F  T|  F
-F  F|  F
+p | q | p ∧ q
+--|--|-------
+T | T|  T
+T | F|  F
+F | T|  F
+F | F|  F

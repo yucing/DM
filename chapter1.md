@@ -176,3 +176,34 @@ T | T | F | F | T | F | F
 T | F | F | T | T | F | F
 F | T | T | F | T | F | F
 F | F | T | T | F | T | T
+
+## 邏輯等式
+### 同一律 identity laws
+* p ∧ T ≡ p
+* p ∨ F ≡ p
+### 支配律 domination laws
+* p ∨ T ≡ T
+* p ∧ F ≡ F
+### 冪等律或重複增減法 idempotent laws
+* p ∨ p ≡ p
+* p ∧ p ≡ p
+### 雙重否定律 double negation law
+* ¬(¬p) ≡ p
+### 交換律 commutative laws
+* p ∨ q ≡ q ∨ p
+* p ∧ q ≡ q ∧ p
+### 結合律 associative laws
+* p ∨ ( q ∨ r ) ≡ ( p ∨ q ) ∨ r
+* p ∧ ( q ∧ r ) ≡ ( p ∧ q ) ∧ r
+### 分配律 distributive laws
+* p ∨ ( q ∧ r ) ≡ ( p ∨ q ) ∧ ( p ∨ r )
+* p ∧ ( q ∨ r ) ≡ ( p ∧ q ) ∨ ( p ∧ r )
+### 笛摩根定律 De Morgan's laws
+* ¬(p ∨ q) ≡ ¬p ∧ ¬q 
+* ¬(p ∧ q) ≡ ¬p ∨ ¬q 
+### 吸收律 absorption laws
+* p ∨ ( p ∧ q ) ≡ p
+* p ∧ ( p ∨ q ) ≡ p
+### 否定律 negative laws
+* p ∨ ¬p ≡ T
+* p ∧ ¬p ≡ F

@@ -86,9 +86,9 @@ F | F|  T
 ### 質位互換命題 contrapositive
 * 「¬q → ¬p」 為 「p → q」 的逆命題
 
-p | q | p → q | q → p | ¬p → ¬q | ¬q → ¬p
+p | q | ¬p | ¬q | p → q | ¬q → ¬p
 --|--|-------|-------|-------|-------
-T | T|  T | 
-T | F|  F
-F | T|  T
-F | F|  T
+T | T | F | F | T | T
+T | F | F | T | F | F
+F | T | T | F | T | T
+F | F | T | T | T | T

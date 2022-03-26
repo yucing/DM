@@ -1,4 +1,4 @@
-# chapter1
+# chapter1 邏輯與證明
 
 ## 命題 proposition
 * 有真假值的「述句」( declaractive sentence )

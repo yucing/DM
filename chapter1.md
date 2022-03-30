@@ -278,19 +278,31 @@ F | F | T | T | F | T | T
 ¬∀xP(x) | ∃x¬P(x) | 存在一個 x 讓 P(x) 為假 | 對所有 x，P(x) 為真
 
 # chapter1-5
-## 肯定前件( modus ponens ) 或 分離律( law of detachment )
+## 肯定前件 modus ponens 或 分離律 law of detachment
 ![](https://github.com/yucing/DM/blob/main/picture/MP.png)
-## 否定後件 ( modus tollens )
+## 否定後件 modus tollens
 ![](https://github.com/yucing/DM/blob/main/picture/MT.png)
-## 假言三段論證( hypothetical syllogism )
+## 假言三段論證 hypothetical syllogism
 ![](https://github.com/yucing/DM/blob/main/picture/HS.png)
-## 選言三段論證( disjunctive syllogism )
+## 選言三段論證 disjunctive syllogism
 ![](https://github.com/yucing/DM/blob/main/picture/DS.png)
-## 添加律( addition )
+## 添加律 addition
 ![](https://github.com/yucing/DM/blob/main/picture/A.png)
-## 簡化律( simplification )
+## 簡化律 simplification
 ![](https://github.com/yucing/DM/blob/main/picture/S.png)
-## 連言律( conjunction )
+## 連言律 conjunction
 ![](https://github.com/yucing/DM/blob/main/picture/C.png)
-## 預解律( resolution )
+## 預解律 resolution
 ![](https://github.com/yucing/DM/blob/main/picture/R.png)
+
+# chpater1-6
+## 直接證明 direct proof
+* 先假設 p 為真，再推 q 為真
+### 例子
+* 「如果 n 為奇數，則 n² 也是奇數」提供一個證明
+1. 解 : 此可表示為 ∀n(P(n) → Q(n))，P(n) 為 「n 是奇數」，Q(n) 為 「n² 是奇數」
+2. 解設 n 為奇數，n = 2k+1，則 n² = (2k+1)² = 4k² + 4k + 1 = 2(2k² + 2k) + 1
+3. ∴ n² 為奇數
+
+## 反證法
+* 

@@ -281,5 +281,9 @@ F | F | T | T | F | T | T
 ## 肯定前件( modus ponens ) 分離律( law of detachment )
 
 p
+
 p → q
-------
+
+_______
+
+∴ q

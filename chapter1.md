@@ -279,3 +279,4 @@ F | F | T | T | F | T | T
 
 # chapter1-5
 ## 肯定前件( modus ponens ) 或 分離律( law of detachment )
+![](https://github.com/yucing/DM/blob/main/picture/MP.png)

@@ -278,12 +278,4 @@ F | F | T | T | F | T | T
 ¬∀xP(x) | ∃x¬P(x) | 存在一個 x 讓 P(x) 為假 | 對所有 x，P(x) 為真
 
 # chapter1-5
-## 肯定前件( modus ponens ) 分離律( law of detachment )
-
-p
-
-p → q
-
-一一一一
-
-∴ q
+## 肯定前件( modus ponens ) 或 分離律( law of detachment )

@@ -40,6 +40,8 @@
 * 為複數的集合
 
 ## 區間 intervals
+1. [a,b] = {x | a≤x≤b}
+2. [a,b) = {x | a≤x<b}
 ### 閉區間 closed interval
 * [a,b]
 ### 開區間 open interval

@@ -193,3 +193,42 @@
 ### 例子
 * 令 A 為大於10之正整數所形成的集合
 * A 的補集 : {1,2,3,4,5,6,7,8,9,10}
+
+## 集合等式
+### 同一律 identity laws
+* A ∩ U = A
+* A ∪ ∅ = A
+### 支配律 domination laws
+* A ∪ U = U
+* A ∩ ∅ = ∅
+### 冪等律 idempotent laws
+* A ∩ A = A
+* A ∪ A = A
+### 補集律 complementation law
+* 補數(補數A) = A
+### 交換律 commutative laws
+* A ∪ B = B ∪ A
+* A ∩ B = B ∩ A
+### 結合律 associative laws
+* A ∩ (B ∩ C) = (A ∩ B) ∩ C
+* A ∪ (B ∪ C) = (A ∪ B) ∪ C
+### 分配律 distributive laws
+* A ∪ (B ∩ C) = (A ∪ B) ∩ (A ∪ C)
+* A ∩ (B ∪ C) = (A ∩ B) ∪ (A ∩ C)
+### 迪摩根定律 De Morgan's laws
+* 補數(A ∩ B) = 補數(A) ∪ 補數(B)
+* 補數(A ∪ B) = 補數(A) ∩ 補數(B)
+### 吸收律 absorption laws
+* A ∪ (A ∩ B) = A
+* A ∩ (A ∪ B) = A
+### 補律 complement laws
+* A ∪ 補數(A) = U
+* A ∩ 補數(A) = ∅
+
+## 一般化的聯集與交集
+### 例題
+* A = {0,2,4,6,8}，B = {0,1,2,3,4}，C = {0,3,6,9}
+* A ∩ B ∩ C = {0}
+* A ∪ B ∪ C = {0,1,2,3,4,6,8,9}
+
+# chapter2-3

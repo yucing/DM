@@ -139,3 +139,13 @@
 * A³ = {(1,1,1),(1,1,2),(1,2,1),(1,2,2),(2,1,1),(2,1,2),(2,2,1),(2,2,2)}
 
 # chapter2-2
+## 集合運算
+* 令 A B 皆為集合
+### 聯集 union
+* A 和 B 的聯集，記為「A ∪ B」
+* 若一個 x 屬於集合 A 和 B 的聯集
+* A ∪ B = {x | x∈A ∨ x∈B}
+
+![](https://github.com/yucing/DM/blob/main/picture/union.png)
+
+#### 例子

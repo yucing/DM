@@ -147,6 +147,40 @@
 
 ![](https://github.com/yucing/DM/blob/main/picture/union.png)
 
-### 例子一
+### 例子
 * 集合{1,2,3}和集合{1,3,5}的聯集為{1,2,3,5}
 * 即 : {1,2,3} ∪ {1,3,5} = {1,2,3,5}
+
+## 交集 intersection
+* 令 A B 皆為集合
+* A 和 B 的交集，記為「A ∩ B」
+* 若一個 x 屬於集合 A 和 B 的交集
+* A ∩ B = {x | x∈A ∧ x∈B}
+
+![](https://github.com/yucing/DM/blob/main/picture/intersection.png)
+
+### 例子
+* 集合{1,2,3}和集合{1,3,5}的交集為{1,3}
+* 即 : {1,2,3} ∩ {1,3,5} = {1,3}
+
+## 互斥 disjoint
+* 兩集合的交集為空集合，稱為互斥
+
+![](https://github.com/yucing/DM/blob/main/picture/disjoint.png)
+
+### 例子
+* A = {1,3,5,7,9}，B = {2,4,6,8,10}
+* A ∩ B = ∅
+* A 和 B 互斥
+
+## 差集 difference
+* 令 A B 皆為集合
+* A 和 B 的差集，記為「A \ B」或「A - B」
+* 若一個 x 屬於集合 A 和 B 的差集，且 x 屬於 A 不屬於 B
+* A - B = {x | x∈A ∧ x∉B}
+
+![](https://github.com/yucing/DM/blob/main/picture/difference.png)
+
+### 例子
+* 集合{1,2,3}和集合{1,3,5}的差集為{2}
+* 即 : {1,2,3} - {1,3,5} = {2}

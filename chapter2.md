@@ -77,3 +77,13 @@
 3. 在圓形內標出點表示 V 中的元素
 
 ![](https://github.com/yucing/DM/blob/main/picture/VD.png)
+
+## 子集合 subset
+* 集合 A 為集合 B 的子集合，且集合 A 的每一個元素都是集合 B 的元素
+* 用符號「A ⊆ B」表示
+### 定理
+* 對所有集合 S
+1. ∅ ⊆ S
+2. S ⊆ S
+
+## 真子集 proper subset

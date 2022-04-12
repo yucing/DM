@@ -278,8 +278,8 @@
 * A = {a,b,c,d,e}，B = {1,2,3,4}，f(a)=2，f(b)=1，f(c)=4，f(d)=1，f(e)=1
 * 解 : 集合 S = {b,c,d} 之映像 f(S) = {1,4}
 
-## 一對一函數
-* 稱為「一對一(one to one)」或「嵌射(injunction)」
+## 一對一函數 injunction
+* 稱為「一對一 (one to one)」或「嵌射 (injunction)」
 * 對所有定義域的元素 a b，若 f(a)=f(b)，可推論 a=b
 ### 例子一
 * 判斷由{a,b,c,d}對應到{1,2,3,4,5}，定義為 f(a)=4, f(b)=5, f(c)=1, f(d)=3，畔對函數 f 是否為一對一
@@ -291,8 +291,8 @@
 * 判斷整數集合對應到整數集合的函數 f(x)=x²，是否為一對一 ?
 * 解 : 否，f(-1)=f(1)=1，-1≠1
 
-## 映成函數
-* 稱為「映成(onto)」或「蓋射(surhection)」
+## 映成函數 surjection
+* 稱為「映成 (onto)」或「蓋射 (surjection)」
 * 對每一個元素 b∈B，都存在一個元素 a∈A，使得 f(a)=b
 ### 例子一
 * 另 f 為由{a,b,c,d}對應到{1,2,3}的函數，定義 f(a)=3, f(b)=2, f(c)=1, f(d)=3，f 是否為映成函數 ?
@@ -318,3 +318,17 @@
 * 考慮任意元素 y ∈ B，找出元素 x ∈ A，使 f(x)=y
 ### 證明 f 不為蓋射
 * 找出特定元素 y ∈ B，使 x ∈ A，但 f(x)≠y
+
+## 反函數 inverse function
+* 若為一對一對應關係稱為「可逆的 (invertible)」
+* 若不是稱為「不可逆的 (not invertible)」
+
+## 合成函數 composition function
+* 函數 f 和 g 的合成，記作「(f。g)(a) = f(g(a))」
+
+## 底函數 floor function
+* 將小於等於 x 之最大整數指派給實數 x，記為「⌊ x ⌋」
+* 最大整數函數 (greatest integer function)，記為「[ x ]」
+
+## 頂函數 ceiling function
+* 將大於等於 x 之最小整數指派給實數 x，記為「⌈ x ⌉」
